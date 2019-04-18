@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css"/>
     <title>CSS Project</title>
   </head>
 
@@ -15,17 +15,26 @@
         
       </div>
       <div class="menu">menu
-       <p><i class="fas fa-home"></i>    Home</p>
-       <p><i class="fas fa-chart-line"></i>    Dashboard</p>
-        <p><i class="fas fa-rss-square"></i>    Feed</p>
-        <p><i class="fas fa-plane-arrival"></i>    Landing</p>
-        <p><i class="fas fa-file-word"></i>    Pages</p>
-        <p><i class="fas fa-envelope-open-text"></i>    Email</p>
-        <p><i class="fas fa-id-card"></i>    Authentication</p>
-        <p><i class="fas fa-presentation"></i>    Layouts</p>
-        <p><i class="fas fa-tools"></i>    Components</p>
-        <p><i class="fas fa-book"></i>    Documentation</p>
-        <p>Changelog</p>
+      <ul class="menu-inside">
+        <li><i class="fas fa-home"></i><a href="#">Home</a>
+          <ul class="menu-inside-sub">
+            <li><a href="#">A</a></li>
+            <li><a href="#">B</a></li>
+            <li><a href="#">C</a></li>
+          </ul>
+        </li>
+        <li><i class="fas fa-chart-line"></i><a href="#">Dashboard</a></li>
+        <li><i class="fas fa-rss-square"></i><a href="#">Feed</a></li>
+        <hr>
+        <li><i class="fas fa-plane-arrival"></i><a href="#">Landing</a></li>
+        <li><i class="fas fa-file-word"></i><a href="#">Pages</a></li>
+        <li><i class="fas fa-envelope-open-text"></i><a href="#">Email</a></li>
+        <li><i class="fas fa-id-card"></i><a href="#">Authentication</a></li>
+        <hr>
+        <li><i class="fas fa-file-signature"></i><a href="#">Layouts</a></li>
+        <li><i class="fas fa-tools"></i><a href="#"></a>Components</li>
+        <li><i class="fas fa-book"></i><a href="#"></a>Documentation</li>
+      </ul>
       </div>
       <div class="graph">graph
             <button class="graph-btn" type="button">Click Me!</button> 
